@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+    <style>
+    .row{
+        border: solid rgb(0, 255, 76) 3px;
+        padding-top: 30px;
+    }
+    .col-md-4{
+        border: solid gray 3px;
+    }
+    </style>
+    
+    <!--responsive img-->
+    <div class="container">
+        <h2>Image</h2>
+        <p>The .img-responsive class makes the image scale nicely to the parent element (resize the browser window to see the effect):</p>
+        <img class="img-responsive" src="/img/fjords.jpg" alt="Chania" width="450" height="300"> 
+      </div>
+
+      <!--img-circle-->
+      <div class="container">
+        <h2>Circle</h2>
+        <p>The .img-circle class shapes the image to a circle (not available in IE8):</p>            
+        <img src="/img/img_mountains.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"> 
+      </div>
+
+      <!--img-thumbnail-->
+      <div class="container">
+        <h2>Thumbnail</h2>
+        <p>The .img-thumbnail class creates a thumbnail of the image:</p>            
+        <img src="/img/img_mountains.jpg"  class="img-thumbnail" alt="Cinque Terre" width="304" height="236"> 
+      </div>
+
+      <!--img-show-onClick-->
+      <div class="design" >
+      <div class="row ">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="/img/fjords.jpg">
+              <img src="/img/fjords.jpg"  style="width:100%">
+              <div class="caption">
+                <p>anything</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="/img/img_mountains.jpg">
+              <img src="/img/img_mountains.jpg"  style="width:100%">
+              <div class="caption">
+                <p>anything</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="/img/lights.jpg">
+              <img src="/img/lights.jpg"  style="width:100%">
+              <div class="caption">
+                <p>anything</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
